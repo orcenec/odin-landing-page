@@ -5,10 +5,9 @@ body {
 
 header {
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
+    flex-flow: column;
     width: auto;
-    height: 100px;
     padding: 0 16px 0 16px;
     margin: 0;
     background-color: #1f2937;
@@ -18,4 +17,19 @@ header {
 
 h1, h2 {
     margin: 0;
+}
+
+.head {
+    display: flex;
+    flex-grow: 2;
+    align-items: baseline;
+    justify-content: space-between;
+    width: auto;
+}
+
+.hero {
+    display: flex;
+    flex-grow: 1;
+    font-size: 48px;
+    font-weight: 900;
 }
