@@ -158,9 +158,13 @@ footer {
     font-weight: 900;
 }
 
+.test {
+display: flex;
+justify-content: center;
+}
+
 .action {
     display: flex;
-    justify-self: center;
     justify-content: space-around;
     background-color: #3882f6;
     width: 60%;
